@@ -29,6 +29,8 @@
 ### "tbusuarios":
 #### ![Campos definidos tabela - tbusuarios](print01_criacao_tabela_banco_mysql.PNG)
 
-### Print de imagem abaixo, utilizei para demonstrar resultado da instalação de uma biblioteca chamada por: "moment" definida no Backend com o Node.js com o propósito de atualizar 
+### Print de imagem abaixo, utilizei para demonstrar resultado da instalação de uma biblioteca chamada por: ***"moment"*** definida no Backend com o Node.js com o propósito de atualizar 
 ### automaticamente o campo: "data_criacao" na tabela criada "tbusuarios" no MYSQL.  
 #### ![Campo "data_criacao" atulizado no usuario por Id 01](print_06_atualiz_data_campo__data_criacao_id01.PNG)
+#### O arquivo que utilizei a bibliteca ***"moment"***, visualizada na imagem acima está definida no arq. "conexao.js", por uma variável: "const moment = require('moment')", e logo após 
+#### por uma função chamada: atualizarDataCriacao() passando variáveis como: "const formattedDate" e "const query" com a consulta no campo especificado no banco MySQL. 
