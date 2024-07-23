@@ -16,3 +16,11 @@
 ####   permite que recursos restritos em uma página da web sejam solicitados de outro domínio fora do domínio do qual o primeiro recurso foi servido. O pacote "--cors" para Node.js ajuda 
 ####   a configuarar e gerenciar essas permissões.
 #### - "--save", assim como no caso do "express", essa flag adiciona o "cors" às dependências do "package.json". Novamente, com o npm 5 e versões posteriores, esssa flag é desnecessária.
+
+### O comando: ***"npm install express mysql sequelize body-parser jsonwebtoken crypto --save"***
+#### O comando utilizado na linha acima, utilizei para instalar múltiplos pacotes e dependências importantes de uma vez neste projeto avaliativo com Node.js.
+#### - O pacote "mysql", um pacote que permite a conexão e interação com o banco de dados MYSQL, no caso do projeto aqui utilizei o pacote "mysql2".
+#### - O pacote "sequelize", um ORM(Object-Relational Mapping) para Node.js que suporta vários banco de dados MYSQL, incluindo MYSQL.
+#### - O pacote "body-parser", um Middleware para Express que analisa o corpo das requisições HTTP, e o torna acessível através de "req.body".
+#### - O pacote "jsonwebtoken", um pacote para criar e verificar JSON Web Tokens (JWT), utlizado para autorização e autenticação.
+#### - O pacote "crypto", um módulo interno do Node.js para finalidades como operações critográficas.
