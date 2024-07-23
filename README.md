@@ -25,6 +25,10 @@
 #### - O pacote "jsonwebtoken", um pacote para criar e verificar JSON Web Tokens (JWT), utlizado para autorização e autenticação.
 #### - O pacote "crypto", um módulo interno do Node.js para finalidades como operações critográficas.
 
+### O Comando: ***"node app.js"***
+#### - O comando na linha acima utilizado para rodar o projeto, após todas as alterações feitas, concetando com o Banco de Bados MySQL, e disponível para explorar
+#### o método CRUD e os meios de autenticação e autorização pelo *Software Postman*.
+
 ### Print de imagem abaixo, utilizei para definir os campos necessários e requistados pelo enunciado da atividade lá no banco: "dbbiblioteca" no MySQL, com a tabela definida por: 
 ### "tbusuarios":
 #### ![Campos definidos tabela - tbusuarios](print01_criacao_tabela_banco_mysql.PNG)
