@@ -1,6 +1,8 @@
 # Atividade avaliativa da discplina de Desenvolvimento Backend, projeto com Crud de usuarios Utilizando o Banco MySQL e Node.js e Postman para explorar os métodos HTTP
 
 ## Descrição dos principais comandos para criar projeto no Node.js e prepará-lo para utilizá-lo:
+### ***"npm init -y"***
+#### - comando acima utilizei para inicializar um novo projeto no Node.js, com a flag "-y" que aceita automaticamente todas as configurações padrão.
 
 ### ***"npm install express --save" e "npm install cors --save"***
 #### - ambos os comanos acima, são usados no ambiente de desenvolviemtno de aplicações backend com Node.js para instalar pacotes específicos e salvá-los como dependências no
