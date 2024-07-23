@@ -24,3 +24,7 @@
 #### - O pacote "body-parser", um Middleware para Express que analisa o corpo das requisições HTTP, e o torna acessível através de "req.body".
 #### - O pacote "jsonwebtoken", um pacote para criar e verificar JSON Web Tokens (JWT), utlizado para autorização e autenticação.
 #### - O pacote "crypto", um módulo interno do Node.js para finalidades como operações critográficas.
+
+### Print de imagem abaixo, utilizei para definir os campos necessários e requistados pelo enunciado da atividade lá no banco: "dbbiblioteca" no MySQL, com a tabela definida por: 
+### "tbusuarios":
+#### ![Campos definidos tabela - tbusuarios](print_06_atualiz_data_campo__data_criacao_id01.PNG)
