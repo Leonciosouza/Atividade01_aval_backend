@@ -54,4 +54,9 @@
 #### SQL 'INSERT INTO'. No método Put(), passamos como Rota, somente o ID de um usuário, sendo que atualizar campos como "nome" e "email", de uma 'usuário' já cadastrado no banco com o comando SQL
 #### por 'UPDATE'. Por fim passamos no método Delete(), somente o ID de um usuário, para apagar um usuário de "tbusuarios" assim todos os seus dados, com o comando SQL 'DELETE'. 
 
+### Referências Bibliográficas pesquisa e apoio: 
+#### Url(https://www.freecodecamp.org/portuguese/news/date-now-em-javascript-como-obter-a-data-atual-em-javascript/)
+#### Material disponibilizado pelo professor no GSA da turma de Backend no início do mural de atividades.
+#### Uso do assitente de resposta: chatGPT para sanar algumas dificuldades.
+
 
