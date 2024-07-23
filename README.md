@@ -27,4 +27,4 @@
 
 ### Print de imagem abaixo, utilizei para definir os campos necessários e requistados pelo enunciado da atividade lá no banco: "dbbiblioteca" no MySQL, com a tabela definida por: 
 ### "tbusuarios":
-#### ![Campos definidos tabela - tbusuarios](print_06_atualiz_data_campo__data_criacao_id01.PNG)
+#### ![Campos definidos tabela - tbusuarios](print01_criacao_tabela_banco_mysql.PNG)
