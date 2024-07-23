@@ -45,3 +45,13 @@
 #### na Rota: "/cadastrar", definimos e passamos variáveis como *const nome*, *const email*, *const senha* com a passagem do método encriptarSenha(), e *const data_criacao*, e uma outra
 #### variável por *const sql*, para pegar campos definidos no banco de dados pelo comando 'INSERT INTO' de 'tbusuarios'. e por fim passando em seguida o método "query".
 
+### No arquivo "usuarios.js":
+#### Definir como solicitado ainda nos enunciados da atividade avaliativa, os método principais para implementar uma espécie de CRUD, passando antes dos métodos exclusivos do protocolo HTTP, 
+#### as seguintes bibliotecas: *const express = require('express')*, *const routerUsuario = express.Router()* e *const dbconn = require('./conexao.js')*, para reconhecer de quais arquivos deve ser feito
+#### as possíveis alterações por requições. No 1º Get(), passamos só um comando 'SELECT' de tbusuarios para pegar todos os campos como envio de uma consulta, no 2º método Get(), passamos uma rota espefi-
+####   cada por "/usuarios/:id" com o comando 'SELECT' de tbusuarios para pegar o id e o nome do usuario vinculado na consulta, sendo antes já cadastrado.
+#### no método Post(), passamos como uma Rota "/usuarios" para enviar dados por todos os campos definidos na tabela tbusuarios no MYSQL no momento de cadastrar, como preenchimento com o comando 
+#### SQL 'INSERT INTO'. No método Put(), passamos como Rota, somente o ID de um usuário, sendo que atualizar campos como "nome" e "email", de uma 'usuário' já cadastrado no banco com o comando SQL
+#### por 'UPDATE'. Por fim passamos no método Delete(), somente o ID de um usuário, para apagar um usuário de "tbusuarios" assim todos os seus dados, com o comando SQL 'DELETE'. 
+
+
