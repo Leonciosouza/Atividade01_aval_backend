@@ -1,10 +1,10 @@
 # Atividade avaliativa da discplina de Desenvolvimento Backend, projeto com Crud de usuarios Utilizando o Banco MySQL e Node.js e Postman para explorar os métodos HTTP
 
 ## Descrição dos principais comandos para criar projeto no Node.js e prepará-lo para utilizá-lo:
-### ***"npm init -y"***
+### O Comando: ***"npm init -y"***
 #### - comando acima utilizei para inicializar um novo projeto no Node.js, com a flag "-y" que aceita automaticamente todas as configurações padrão.
 
-### ***"npm install express --save" e "npm install cors --save"***
+### O Comando: ***"npm install express --save" e "npm install cors --save"***
 #### - ambos os comanos acima, são usados no ambiente de desenvolviemtno de aplicações backend com Node.js para instalar pacotes específicos e salvá-los como dependências no
 ####     arquivo "package.json".
 #### - O comando ***"npm install express --save"***, instala o pacote "express". Onde o mesmo é um framework web para Node.js que facilita a construção de aplicativos web e 
@@ -28,3 +28,7 @@
 ### Print de imagem abaixo, utilizei para definir os campos necessários e requistados pelo enunciado da atividade lá no banco: "dbbiblioteca" no MySQL, com a tabela definida por: 
 ### "tbusuarios":
 #### ![Campos definidos tabela - tbusuarios](print01_criacao_tabela_banco_mysql.PNG)
+
+### Print de imagem abaixo, utilizei para demonstrar resultado da instalação de uma biblioteca chamada por: "moment" definida no Backend com o Node.js com o propósito de atualizar 
+### automaticamente o campo: "data_criacao" na tabela criada "tbusuarios" no MYSQL.  
+#### ![Campo "data_criacao" atulizado no usuario por Id 01](print_06_atualiz_data_campo__data_criacao_id01.PNG)
