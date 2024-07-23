@@ -34,3 +34,14 @@
 #### ![Campo "data_criacao" atulizado no usuario por Id 01](print_06_atualiz_data_campo__data_criacao_id01.PNG)
 #### O arquivo que utilizei a bibliteca ***"moment"***, visualizada na imagem acima está definida no arq. "conexao.js", por uma variável: "const moment = require('moment')", e logo após 
 #### por uma função chamada: atualizarDataCriacao() passando variáveis como: "const formattedDate" e "const query" com a consulta no campo especificado no banco MySQL. 
+
+### No arquivo "app.js":  
+#### Definir como solicitado nos enunciados da atividade avaliativa, as seguintes Rotas: "/gerarSenha", "/login" e "/cadastrar", todas estas definidas e passadas dentro do método 'POST',
+#### Portanto, definido ainda, 3 funções como: gerarToken(), encriptarSenha() e verificarToken(), que foram definidas com o propósito de gerar um token quando logar um usuário já cadastrado
+####   no banco de dados, a fim de autenticá-lo e permitir seu acesso ao banco. 
+#### na Rota: "/login", passamos variáveis como *const senha* e *const email*, como campos essenciais para autenticar um "usuário" pelo Software *Postman* especificado de acordo com a tabela criada no banco.
+#### na Rota: "/gerarSenha", definimos variáveis como: *const senha* e *const senhaEncriptada*, ambos variáveis de acordo com o que foi definido na tabela "tbusuarios" no MYSQL. A fim de 
+#### gerar uma nova senha para um novo usuário cadatrado no banco.
+#### na Rota: "/cadastrar", definimos e passamos variáveis como conts nome, *const email*, *const senha* com a passagem do método encriptarSenha(), e *const data_criacao*, e uma outra
+#### variável por *const sql*, para pegar campos definidos no banco de dados pelo comando 'INSERT INTO' de 'tbusuarios'. e por fim passando em seguida o método "query".
+
