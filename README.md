@@ -42,6 +42,6 @@
 #### na Rota: "/login", passamos variáveis como *const senha* e *const email*, como campos essenciais para autenticar um "usuário" pelo Software *Postman* especificado de acordo com a tabela criada no banco.
 #### na Rota: "/gerarSenha", definimos variáveis como: *const senha* e *const senhaEncriptada*, ambos variáveis de acordo com o que foi definido na tabela "tbusuarios" no MYSQL. A fim de 
 #### gerar uma nova senha para um novo usuário cadatrado no banco.
-#### na Rota: "/cadastrar", definimos e passamos variáveis como conts nome, *const email*, *const senha* com a passagem do método encriptarSenha(), e *const data_criacao*, e uma outra
+#### na Rota: "/cadastrar", definimos e passamos variáveis como *const nome*, *const email*, *const senha* com a passagem do método encriptarSenha(), e *const data_criacao*, e uma outra
 #### variável por *const sql*, para pegar campos definidos no banco de dados pelo comando 'INSERT INTO' de 'tbusuarios'. e por fim passando em seguida o método "query".
 
